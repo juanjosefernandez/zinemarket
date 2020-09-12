@@ -3,13 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
-# removed from dependencies (maybe add them back like this:
-# jquery-rails
-# bootstrap-sass (~> 3.4.1)
-# - - - - - - - - - - - - - - - - 
-# gem 'bootstrap-sass', '~> 3.4.1'
-# gem 'jquery-rails'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 # Use sqlite3 as the database for Active Record
@@ -34,6 +27,13 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+
+# removed from dependencies (maybe add them back like this:
+# jquery-rails
+# bootstrap-sass (~> 3.4.1)
+# - - - - - - - - - - - - - - - - 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'jquery-rails'
 
 group :production do
   #gem 'pg', '~> 0.18.4'
