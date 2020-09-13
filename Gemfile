@@ -36,7 +36,7 @@ gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
 
 group :production do
-  #gem 'pg', '~> 0.18.4'
+  gem 'pg', '~> 0.18.4'
   gem 'rails_12factor'
 end
 
